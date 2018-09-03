@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!--custom-->
+    <link rel="stylesheet" href="custom.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quintessential|Neucha|Forum|Overlock+SC" rel="stylesheet">
+</head>
+
+<style>
+    /*on custom.css*/
+</style>
+
+<body>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!--Navigational bar-->
+
+
+        <!--fixed container-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <!--icon-bar-button-->
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+                    <a class="navbar-brand" href="#">unwire2018</a>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#info">Info</a></li>
+                        <li><a href="#rule-of-three">The Rule of Three</a></li>
+                        <li><a href="#bottomline">Bottomline</a></li>
+                        <li><a href="#reference">Reference</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--Home Page-->
+        <header id="home">
+            <div class="center-text">
+                <h1>Let's Unwire</h1>
+
+            </div>
+        </header>
+
+        <header id="info">
+            <div class="container bg-gray">
+                <div class="color">
+                    <h1 class="black">Info</h1>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-0">
+
+                        <h2>The Wide Use of Cellphones: </h2>
+                        <p>It is estimated that there are 7 billion cellphone users out of 7.5 billion around the world.</p>
+                    </div>
+
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-0">
+                        <h2>Apps: </h2>
+                        <p>There are over 2.1 million apps to choose from, and it has encouraged people to perform multiple activities simultaneously. Due to these features, there is an increasing tendency for people to multitask such as eating and texting.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--The Rule of Three-->
+        <header id="rule-of-three">
+            <div class="container">
+                <h1>The Rule of Three</h1>
+                <div class="container">
+                    <div class="jumbotron">
+                        <p>“In a conversation among five or six people at dinner, you have to check that three people are paying attention — heads up — before you give yourself permission to look down at your phone” (Turkle, 2015). This shows that different
+                            people would have their heads up at different times. </p>
+                    </div>
+                    <div class="jumbotron">
+                        <p>Effects:
+                            <p>
+                                <p>reduction in face-to-face conversations limits one’s ability to hold deep conversations</p>
+                    </div>
+                </div>
+
+    </body>
+
+</html>
+
+
+</div>
+</header>
+
+<!--Bottomline-->
+<header id="bottomline">
+    <div class="container">
+        <div class="row">
+            <h1>Bottomline</h1>
+            <h2 class="white">In order to avoid further social declination, cell phones should be used with greater intention.</h2>
+
+
+        </div>
+    </div>
+</header>
+
+<!--Reference-->
+<header id="reference">
+  <div class="container bg-gray">
+    <h1 class= "black">Reference</h1>
+    <div class="row">
+      
+         <p>Coffee & iphone image: Coffee-and-laptop.jpg</p>
+        <p>Oil Paint Art image: Arts-Oil-Painting-Wallpaper-For-iPhone.jpg </p>
+        <p>A person taking a picture image: smartphone-789625_960_720.jpg</p>
+        <p>Earphones & iphone: mobile-phone-iphone-music-38295.jpeg</p>
+        <p>Google Document & smartphone: Google-docs-tips-take-a-doc-offline_5-100622822-orig.jpg</p>
+      
+       
+<br><br>
+</div>
+    </div>
+</header>
+
+<!--About-->
+<header id="about">
+
+    <div class="container">
+        <h1>About</h1>
+
+
+        <about>
+
+            <h2 class="white">
+                This is a project made for research purposes
+            </h2>
+            <div class="row">
+                <h5>Project made by Amy Chen</h5>
+                <h5><a href ="https://xiurongy3506.github.io/" style="color:lightblue">Website Coding Credit</a></h5>
+
+
+                <hr class="my-4">
+                <h5>
+                    Copyright © 2018 | unwire2018
+                </h5>
+                
+
+
+
+        </about>
+
+
+        </div>
+</header>
+<script>
+    //code from W3 school
+    $(document).ready(function() {
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+                // Store hash
+                var hash = this.hash;
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    })
+</script>
+
+</body>
+</body>
+
+</html>
